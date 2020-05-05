@@ -1,22 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-body {
+.body {
+	background: #e9edf0;
 	font-size: 13px;
 	font-size: 1.3rem;
 	line-height: 140%;
 	font-family: arial,freeSans,sans-serif;
 	color: #16212c;
-	background: #e9edf0;
 }
 section h2 {
 	font: normal 1.7rem TheSerifOffice,georgia,serif;
 }
 
-a figcaption {
-	font-size: 1.3rem;
-	line-height: 120%;
-	font-family: arial,sans-serif;
-}
 .bloc_droit {
 	border: 1px solid #eef1f5;
 	overflow: hidden;
@@ -43,18 +38,17 @@ a figcaption {
 	color: #a2a9ae;
 	text-transform: uppercase;
 }
-.entree{
-	height: 63px;
-	padding: 7px 14px 10px;
-	overflow: hidden;
-	border-top: 1px solid #e9edf0;
+.blog{
+	border-bottom: 1px solid gray;
 }
 .bloc_droit strong {
-	height: 31px;
 	overflow: hidden;
 	font-weight:bold;
 }
 [class^=col-] {
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+figcaption {
+	font-size: 0.8em;
 }
